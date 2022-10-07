@@ -20,14 +20,6 @@ class shoe(models.Model):
         return str(self.id)
 
 
-class sale(models.Model):
-    sale_name=models.CharField(max_length=50, blank=True)
-    sale_price=models.IntegerField(blank=True, null=True)
-    sale_picture=models.ImageField(upload_to='sale/', null=True)
-    updated = models.DateTimeField(auto_now=True)
-    def __str__(self):
-      return str(self.id)
-
 class trending(models.Model):
     Trending_name=models.CharField(max_length=100, blank=True)
     Trending_price=models.IntegerField(blank=True, null=True)

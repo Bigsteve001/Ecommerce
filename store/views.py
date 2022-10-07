@@ -8,12 +8,12 @@ def index(request):
     Home = home.objects.all
     shoes=shoe.objects.all()
     # filter(updated)
-    sales=sale.objects.all
+    
     trends=trending.objects.all
 
 
     context = ( 
-        {'home' : Home,'Shoe': shoes,'Sale': sales,'Trending': trends} )
+        {'home' : Home,'Shoe': shoes,'Trending': trends} )
       
     return render(request, 'index.html', context)
 

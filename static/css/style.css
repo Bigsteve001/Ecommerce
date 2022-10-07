@@ -367,7 +367,7 @@ body{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
     margin-bottom: 5px;}
     
-}
+
 .carousel-indicators li.active{
     margin-bottom:5px; background:#00a199;
     
@@ -505,7 +505,7 @@ body{
 .sale_text{
 	width: 100%;
 	float: left;
-	font-size: 45pt;
+	font-size: 32pt;
 	color: #ed2540;
 	line-height: 75px;
 }
